@@ -9,13 +9,13 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: redis
+      app: worker
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: redis
+        app: worker
     spec:
       containers:
         - image: schoolofdevops/worker:latest
