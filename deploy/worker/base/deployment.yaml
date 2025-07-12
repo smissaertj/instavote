@@ -20,5 +20,5 @@ spec:
       containers:
       - image: schoolofdevops/worker:latest
         name: worker
-       resources: {}
+        resources: {}
 status: {}
